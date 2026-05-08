@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    image: conterp-al-rh-app:latest
+    container_name: al-rh-sync
+    env_file: .env
+    restart: "no"
