@@ -46,6 +46,7 @@ secrets.json
 build/
 dist/
 *.spec
+.claude/
 
 # ============================
 # Testes
